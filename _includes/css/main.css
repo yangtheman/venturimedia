@@ -87,13 +87,22 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  padding: 0 0;
+  width: 100%;
+  margin-top: 110px;
+  background-image: url(img/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header img {
     display: block;
     margin: 0 auto 20px;
+}
+
+header .intro-text {
+  padding: 4em 0 30em 0;
 }
 
 header .intro-text .name {
@@ -110,11 +119,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
         font-size: 4.75em;
     }
@@ -186,13 +190,17 @@ section.success {
 }
 
 @media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
+  header .container {
+    margin-top: 60px;
+  }
 
-    section.first {
-        padding-top: 75px;
-    }
+  section {
+      padding: 75px 0;
+  }
+
+  section.first {
+      padding-top: 75px;
+  }
 }
 
 #portfolio .portfolio-item {
@@ -247,9 +255,9 @@ section.success {
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
+  #portfolio .portfolio-item {
+      margin: 0 0 30px;
+  }
 }
 
 /* Flexbox Portfolio Grid */
