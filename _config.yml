@@ -71,3 +71,5 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+theme: jekyll-theme-cayman
