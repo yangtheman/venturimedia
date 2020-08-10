@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 3
+date: 2020-08-09
+img: boycott.png
+alt: image-alt
+project-date: August 2020
+category: Mobile App
+description: Support or boycott businesses around me
+---

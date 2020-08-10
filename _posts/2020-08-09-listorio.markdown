@@ -4,8 +4,8 @@ modal-id: 2
 date: 2014-07-17
 img: listorio.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: July 2020
 category: Web Development
 description: Make curated lists and share them
+project-url: https://listorio.com
 ---
