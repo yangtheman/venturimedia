@@ -137,10 +137,16 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+      font-size: 2em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+      padding: 0;
+    }
+
+    .navbar-fixed-top .navbar-brand img {
+      width: 175px;
+      height: 50px;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -200,6 +206,11 @@ section.success {
 
   section.first {
       padding-top: 75px;
+  }
+
+  .navbar-fixed-top .navbar-brand img {
+    width: 105px;
+    height: 30px;
   }
 }
 
