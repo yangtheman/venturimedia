@@ -6,5 +6,6 @@ img: boycott.png
 alt: image-alt
 project-date: August 2020
 category: Mobile App
-description: Support or boycott businesses around me
+description: Support or boycott businesses around you
+project-url: https://speakwithwallet.com/
 ---
